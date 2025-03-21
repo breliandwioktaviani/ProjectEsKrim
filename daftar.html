@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title> Daftar </title>
+        <link rel="icon" href="logoeskrimm.png" sizes="16x16">
+        <style>
+            .logo {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 20px;
+            }
+
+            .container {
+                width: 300px;
+                margin-left: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logo" style="margin-left: 220px;">
+            <img src="logoeskrimm.png" alt="logo" height="130px" width="130px">
+            <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> EsKrim Happy </h1>
+        </div>
+
+        <div class="container">
+          <form method="post"  action="log.html">
+            <fieldset style="width: 500px; height: 300px; border-radius: 10px; background-color: #fdeddc;" ><legend style="text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; "> <h2> Daftar Akun </h2> </legend>
+                <table>
+                    <tr>
+                        <td><label for="username" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Username </label></td>
+                        <td><input type="text" name="username" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="alamat" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Alamat </label></td>
+                        <td><textarea name="alamat" style="height: 100px; width: 200px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="telepon" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> No. Telp </label></td>
+                        <td><input type="tel" name="telepon" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="password" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> Password </label></td>
+                        <td><input type="password" name="password" id="password" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"></td>
+                    </tr>
+
+                    <tr></tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="Kirim" value="Submit" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: #866042; color: white; border-radius: 5px;">
+                            <input type="reset" name="batal" value="Reset" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: #866042; color: white; border-radius: 5px;">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+          </form>  
+        </div>
+    </body>
+</html>
