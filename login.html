@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - EsKrim Happy</title>
+    <link rel="icon" type="img/png" href="logoeskrimm.png" sizes="16x16" />
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .logo-container img {
+            width: 50px;
+            height: auto;
+        }
+        .logo-container h1 {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .login-container {
+            background: #FDEDDC;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 320px;
+            border: 1px solid #d3a58a;
+        }
+        .login-container h2 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+            position: relative;
+        }
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 8px 40px 8px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: #fff;
+            display: block;
+        }
+        .password-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+        .password-container .eye-icon {
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+            width: 22px;
+            height: 22px;
+        }
+        .link-container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin: 15px 0;
+            font-size: 14px;
+        }
+        .link-container a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .link-container a:hover {
+            text-decoration: underline;
+        }
+        .btn-login {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background-color: #866042;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .btn-login:hover {
+            background-color: #705132;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Logo dan Nama di atas kotak login -->
+    <div class="logo-container">
+        <img src="logoeskrimm.png" alt="Logo Eskrim Happy">
+        <h1>EsKrim Happy</h1>
+    </div>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form method="post">
+            <div class="input-group">
+                <label for="user">Username</label>
+                <input type="text" id="user" name="user" placeholder="Masukkan username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <div class="password-container">
+                    <input type="password" id="password" name="password" placeholder="Masukkan password" required>
+                    <img src="mata.png" alt="Show/Hide" class="eye-icon" onclick="togglePassword()">
+                </div>
+            </div>
+
+            <div class="link-container">
+                <a href="masuk2.html">Lupa Password?</a>
+                <a href="daftar.html">Buat akun baru</a>
+            </div>
+
+            <button type="submit" class="btn-login">Kirim</button>
+        </form>
+    </div>
+
+    <script>
+        function togglePassword() {
+            var passwordField = document.getElementById("password");
+            if (passwordField.type === "password") {
+                passwordField.type = "text";
+            } else {
+                passwordField.type = "password";
+            }
+        }
+    </script>
+
+</body>
+</html>
