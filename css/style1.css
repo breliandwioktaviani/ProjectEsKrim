@@ -1,0 +1,172 @@
+* {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url('../gambar/bg.png');
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 10px;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .logo h1 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .form-container {
+            background-color: #fdeddc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 320px;
+            border: 1px solid #d3a58a;
+        }
+
+        fieldset {
+            border: none;
+        }
+
+        legend {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 12px;
+            text-align: left;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 4px;
+            font-size: 13px;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            background-color: #fef9f2;
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+
+        .form-actions input {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #866042;
+            color: white;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        .form-actions input:hover {
+            background-color: #705132;
+        }
+
+        .password-container {
+            position: relative;
+        }
+
+        .password-container input {
+            width: 100%;
+            padding-right: 35px; 
+        }
+
+        .eye-icon {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .login-page .link-container a:first-child {
+            margin-right: 10px;
+        }
+
+        .login-page .password-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .login-page .password-container .eye-icon {
+            position: absolute;
+            right: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .login-page .form-actions input[type="submit"] {
+            background-color: #866042;
+            color: white;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .login-page .form-actions input[type="submit"]:hover {
+            background-color: #705132;
+        }
+
+        .login-page .link-container {
+            margin-top: 10px;
+            font-size: 14px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10px; 
+            width: 100%;
+        }
+
+        .login-page .link-container a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .login-page .link-container a:hover {
+            text-decoration: underline;
+        }
+
+        .login-page .error-message {
+            color: red;
+            margin-bottom: 10px;
+            text-align: center;
+            font-size: 14px;
+        }

@@ -1,0 +1,211 @@
+.container {
+  padding: 20px;
+  flex: 1;
+  background-color: #fffaf5;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #000;
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.pay-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #A06A42;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pay-btn:hover {
+  background-color: #8b5730;
+}
+
+.summary {
+  background: #e2ceb1;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.summary ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.summary li {
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.payment-info {
+  margin-top: 20px;
+  background-color: #e2ceb1;
+  padding: 15px;
+  border-radius: 10px;
+  display: none;
+}
+
+.payment-info img {
+  max-width: 100px;
+  display: block;
+  margin-top: 10px;
+}
+
+footer {
+  background: #866042;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+.keranjang-item {
+  display: flex;
+  align-items: center; 
+  background-color: #EBD3BE;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  gap: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.gambar-menu {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.info-keranjang {
+  flex: 1;
+}
+
+.kontrol-jumlah {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  gap: 8px;
+}
+
+.hapus-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hapus-form button {
+  background-color: #A06A42;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.hapus-form button:hover {
+  background-color: #8b5730;
+}
+
+.keranjang-item img {
+  border-radius: 8px;
+}
+
+.keranjang-item div {
+  flex: 1;
+}
+
+.keranjang-item strong {
+  font-size: 18px;
+  color: #3a2e2a;
+}
+
+.keranjang-item span {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.keranjang-item button {
+  background-color: #A06A42;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.keranjang-item button:hover {
+  background-color: #8b5730;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.checkout-box {
+  text-align: right;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+
+
+.checkout-box strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #3a2e2a;
+}
+
+.checkout-btn {
+  background-color: #A06A42;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #8b5730;
+}
+
