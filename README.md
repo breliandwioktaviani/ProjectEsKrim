@@ -18,41 +18,33 @@
           
 
 ## 📄 File PHP (Frontend & Backend):
-        index.php, daftar.php, login.php, beranda.php, menu.php, keranjang.php, pembayaran.php, akun.php, logout.php
-        Admin : daftar.php, login.php, editmenu.php, viewmenu.php, viewakun.php, viewkeranjang.php, logout.php
-📄 File CSS:
+        index.php, daftar.php, login.php, beranda.php, menu.php,
+        lupapassword.php, otp.php, editpw.php
+        keranjang.php, pembayaran.php, akun.php, logout.php
+        Admin : daftar.php, login.php, view_menu.php, viewakunadmin.php,
+        riwayat_pembayran.php, logout.php
 
-global.css, style.css, profile.css
-📄 File Lain:
+## 📄 File CSS:
+      akunstyle.css, berandastyle.css, keranjangstyle.css, menustyle.css, 
+      pembayaranstyle.css, pwstyle.css, style.css, style1.css, styleinput.css
+      styleinputmenu.css, viewakunadmin.css
+      
+## 📄 File Lain:
+      composer.json, composer.lock, README.md, LICENSE, dll.
 
-composer.json, composer.lock, README.md, LICENSE, dll.
-🛠 Bahasa yang Digunakan
-Frontend: HTML, CSS, JavaScript
-Backend: PHP (Native)
-Database: MySQL
-Library: PHPMailer (melalui Composer)
-📖 Dokumentasi
-Dokumentasi sistem tersedia dalam bentuk file dan folder berikut:
-
-Struktur Database → database.php
-Desain Halaman → File *.php dan *.css
-Query & Proses → Query/, proses_beli.php, dll
-🧑‍🤝‍🧑 Kontributor
-Nama	GitHub Profile
-Pandu Sagalang	🌐 PanduSagalang
-Amelia Candra	🌐 AmeliaCandra21
-🚀 Cara Menjalankan Proyek
-Clone repositori ke lokal:
-git clone https://github.com/BimoET/Proyek_Penjualan_Telur.git
-Jalankan XAMPP, dan letakkan file di dalam folder htdocs.
-Import database ke phpMyAdmin.
-Buka http://localhost/Proyek_Penjualan_Telur melalui browser.
-Login menggunakan akun yang telah dibuat atau register jika tersedia.
+## 🛠 Bahasa yang Digunakan
+      Frontend: HTML, CSS, JavaScript
+      Backend: PHP (Native)
+      Database: MySQL
+      Library: PHPMailer (melalui Composer)
+      
+## 🧑‍🤝‍🧑 Kontributor
+      Nama	GitHub Profile
+      Aulia Surya Nugraheni	🌐 auliasn
+      Dony Kurniawan    	🌐 kurniawan-Donn
+      
 💡 Deskripsi Singkat
-Repositori ini merupakan hasil proyek Ujian Akhir Semester dari Kelompok 1. Aplikasi ini dirancang untuk mengelola sistem penjualan telur secara digital, termasuk fitur:
+Repositori ini merupakan hasil proyek Ujian Akhir Semester dari Kelompok 7. Aplikasi ini dirancang untuk mengelola sistem penjualan EsKrim secara digital.
 
-Manajemen produk dan keranjang
-Sistem checkout
-Otentikasi pengguna
-Dashboard admin dan pelanggan
+
 Terima kasih telah mengunjungi repositori ini! Silakan gunakan dan pelajari proyek ini untuk referensi atau pengembangan lebih lanjut. 😊
