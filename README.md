@@ -1,54 +1,58 @@
-# 🌟 UAS Kelompok 2 🌟
+## 🌟 UAS Kelompok 7 – Website EsKrim Happy 🌟
 
-## 📂 Daftar Isi Folder
-- **Dokumen UAS** 📄
-  - 📘 Dokumentasi Awal Proyek Pengembangan Basis Data Toko Risky Bawang dan Palawija.pdf
-  - 📙 Fitur Database[1].pdf
-  - 📗 LAPORAN TUGAS UAS kelompok 2.pdf
-  - 📕 MANUAL PENGGUNAAN SISTEM MANAJEMEN.pdf
-- **Folder Basic** 📁
-  - 🔧 Codingan composer
+## 📁 Struktur Proyek
+      Repositori ini berisi file dan folder utama yang digunakan dalam pengembangan aplikasi penjualan telur berbasis web.
 
----
+## 📂 Direktori & File
+      📁 Query/
+          Berisi file query database seperti pengguna.php
+          
+      📁 gambar/
+          Folder untuk menyimpan file gambar produk.
 
-## Tech Stack
-![Database](https://img.shields.io/badge/database-MySQL-green) ![Framework](https://img.shields.io/badge/framework-Yii2-blue) ![Language](https://img.shields.io/badge/language-PHP-blue) ![Environment](https://img.shields.io/badge/environment-XAMPP-orange) ![Dependencies](https://img.shields.io/badge/dependencies-Composer-yellow)
+      📁 js/
+          Folder untuk menyimpan script JavaScript (script.js).
 
----
+      📁 vendor/
+          Folder autoload Composer yang berisi dependency seperti phpmailer/.
+          
 
-## Documentation
-For detailed documentation, refer to the files linked below (written in Indonesian):
+## 📄 File PHP (Frontend & Backend):
+        index.php, daftar.php, login.php, beranda.php, menu.php, keranjang.php, pembayaran.php, akun.php, logout.php
+        Admin : daftar.php, login.php, editmenu.php, viewmenu.php, viewakun.php, viewkeranjang.php, logout.php
+📄 File CSS:
 
-- 📘 [Dokumen Awal Proyek](#)
-- 📙 [Fitur Basis Data](#)
-- 📗 [Laporan Tugas UAS](#)
-- 📕 [Manual Penggunaan Sistem](#)
+global.css, style.css, profile.css
+📄 File Lain:
 
----
+composer.json, composer.lock, README.md, LICENSE, dll.
+🛠 Bahasa yang Digunakan
+Frontend: HTML, CSS, JavaScript
+Backend: PHP (Native)
+Database: MySQL
+Library: PHPMailer (melalui Composer)
+📖 Dokumentasi
+Dokumentasi sistem tersedia dalam bentuk file dan folder berikut:
 
-## 🤝 Contributors
-| Contributor       | GitHub Profile                                  |
-|-------------------|------------------------------------------------|
-| **Adia Sandra**  | [🌐 Profile](https://github.com/sandraalmeera) |
-| **Yessica**      | [🌐 Profile](https://github.com/yesicafapa)    |
+Struktur Database → database.php
+Desain Halaman → File *.php dan *.css
+Query & Proses → Query/, proses_beli.php, dll
+🧑‍🤝‍🧑 Kontributor
+Nama	GitHub Profile
+Pandu Sagalang	🌐 PanduSagalang
+Amelia Candra	🌐 AmeliaCandra21
+🚀 Cara Menjalankan Proyek
+Clone repositori ke lokal:
+git clone https://github.com/BimoET/Proyek_Penjualan_Telur.git
+Jalankan XAMPP, dan letakkan file di dalam folder htdocs.
+Import database ke phpMyAdmin.
+Buka http://localhost/Proyek_Penjualan_Telur melalui browser.
+Login menggunakan akun yang telah dibuat atau register jika tersedia.
+💡 Deskripsi Singkat
+Repositori ini merupakan hasil proyek Ujian Akhir Semester dari Kelompok 1. Aplikasi ini dirancang untuk mengelola sistem penjualan telur secara digital, termasuk fitur:
 
----
-
-## 📝 Deskripsi
-This repository is the collaborative work of **Kelompok 2** for the **UAS Project**. It includes:
-- 📌 Initial project documentation.
-- 📌 Database features.
-- 📌 Group project report.
-- 📌 System usage manual.
-
-We hope this repository provides a clear understanding of our project. 😊
-
----
-
-## 🚀 How to Use
-1. Clone this repository locally:
-   ```bash
-   git clone https://github.com/AbidRafiul/UAS_Kelompok2.git
-   ```
-2. Open the document files in the "Dokumen UAS" folder.
-3. Follow the system usage manual for further information.
+Manajemen produk dan keranjang
+Sistem checkout
+Otentikasi pengguna
+Dashboard admin dan pelanggan
+Terima kasih telah mengunjungi repositori ini! Silakan gunakan dan pelajari proyek ini untuk referensi atau pengembangan lebih lanjut. 😊
