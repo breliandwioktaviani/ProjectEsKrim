@@ -69,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </div>
 
                 <div class="link-container">
-                    <a href="lupa.php">Lupa Password?</a> 
+                    <a href="../lupapassword.php">Lupa Password?</a> 
                     <a href="daftar.php">Buat akun baru</a>
                 </div>
 
