@@ -24,13 +24,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'auliasuryanugraheni@gmail.com';       
-        $mail->Password   = 'zmoj jlnm skts xwzc';           
+        $mail->Username   = emailname ;       
+        $mail->Password   = password ;           
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
     
-        $mail->setFrom('auliasuryanugraheni@gmail.com', 'EsKrim Happy');
+        $mail->setFrom( emailname , name );
         $mail->addAddress($email, $username);
 
 
